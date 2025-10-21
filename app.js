@@ -34,3 +34,33 @@ Shery.imageEffect(".images", {
         });
     },
 });
+
+
+// Animate Navbar
+gsap.from("#nav", {
+  y: -100,
+  opacity: 0,
+  duration: 2,
+  ease: "power4.out"
+});
+
+// Animate Main Heading
+gsap.from("#homeMain > h1", {
+  opacity: 0,
+  y: 50,
+  duration: 1,
+  delay: 0.5,
+  ease: "power2.out"
+});
+
+// Animate Each Word (Website, Apps, Branding)
+gsap.from(".headings h1", {
+  opacity: 0,
+  y: 100,
+  stagger: 0.2,
+  delay: 1,
+  duration: 1,
+  ease: "power3.out"
+});
+
+
