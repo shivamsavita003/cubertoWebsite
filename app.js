@@ -1,7 +1,7 @@
 gsap.registerPlugin(ScrollTrigger);
 Shery.mouseFollower();
 Shery.makeMagnet(".magnet");
-Shery.hoverWithMediaCircle(".hvr",{videos: ["video7.mp4","video9.mp4","video4.mp4"]});
+Shery.hoverWithMediaCircle(".hvr",{images: ["img2.jpg","img4.jpg","img3.jpg"]});
 
 gsap.to(".fleftelm", {
     scrollTrigger: {
